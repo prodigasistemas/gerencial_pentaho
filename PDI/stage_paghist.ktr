@@ -75,109 +75,14 @@
   <notepads>
   </notepads>
   <connection>
-    <name>AgileBI</name>
-    <server>localhost</server>
-    <type>MONETDB</type>
+    <name>Teste_comercial</name>
+    <server>10.20.100.38</server>
+    <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>pentaho-instaview</database>
-    <port>50006</port>
-    <username>monetdb</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb14a17edb86abd8</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <read_only>true</read_only>
-    <attributes>
-      <attribute><code>EXTRA_OPTION_INFOBRIGHT.characterEncoding</code><attribute>UTF-8</attribute></attribute>
-      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
-      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>true</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>50006</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>caern_trans</name>
-    <server>186.215.202.154</server>
-    <type>POSTGRESQL</type>
-    <access>JNDI</access>
-    <database>caern_trans</database>
-    <port>6000</port>
-    <username/>
-    <password>Encrypted </password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>6000</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>comercial_gsan</name>
-    <server/>
-    <type>POSTGRESQL</type>
-    <access>JNDI</access>
-    <database>comercial_gsan</database>
-    <port>1521</port>
-    <username/>
-    <password>Encrypted </password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>COMERCIAL_GSAN</name>
-    <server/>
-    <type>POSTGRESQL</type>
-    <access>JNDI</access>
-    <database>comercial_gsan</database>
-    <port>1521</port>
-    <username/>
-    <password>Encrypted </password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>GERENCIAL_GSAN</name>
-    <server>192.168.64.243</server>
-    <type>POSTGRESQL</type>
-    <access>JNDI</access>
-    <database>gerencial_gsan</database>
+    <database>comercial</database>
     <port>5432</port>
-    <username/>
-    <password>Encrypted </password>
+    <username>rafaela</username>
+    <password>Encrypted 2be98afc86aa7f2e4b918a8718cc2fe8f</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -194,158 +99,14 @@
     </attributes>
   </connection>
   <connection>
-    <name>GSAN_GERENCIAL_CAERN_243</name>
-    <server>192.168.64.243</server>
+    <name>Teste_pentaho</name>
+    <server>10.20.100.38</server>
     <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>gsan_gerencial_caern</database>
-    <port>5432</port>
-    <username>gsan_batch</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce72fe86acd2</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>oracle_procenge</name>
-    <server>192.168.64.241</server>
-    <type>ORACLE</type>
-    <access>Native</access>
-    <database>gsancaerd</database>
-    <port>1521</port>
-    <username>gsan_admin</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce71da9fa6d4</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>procenge_gsan</name>
-    <server>192.168.64.241</server>
-    <type>ORACLE</type>
-    <access>Native</access>
-    <database>gsancaerd</database>
-    <port>1521</port>
-    <username>gsan_admin</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce71da9fa6d4</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>procenge_oracle</name>
-    <server/>
-    <type>ORACLE</type>
-    <access>JNDI</access>
-    <database>procenge_oracle</database>
-    <port>1521</port>
-    <username/>
-    <password>Encrypted </password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>procenge_postegres</name>
-    <server/>
-    <type>POSTGRESQL</type>
-    <access>JNDI</access>
-    <database>procenge_postegres</database>
-    <port>1521</port>
-    <username/>
-    <password>Encrypted </password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>VERTICA_JNDI</name>
-    <server/>
-    <type>VERTICA5</type>
-    <access>JNDI</access>
-    <database>gerencial_gsan_vertica</database>
-    <port>1521</port>
-    <username/>
-    <password>Encrypted </password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>VERTICA_PENTAHO</name>
-    <server>192.168.64.236</server>
-    <type>VERTICA5</type>
     <access>Native</access>
     <database>pentaho</database>
-    <port>5433</port>
-    <username>dbadmin</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb10be71dac3ff90</password>
+    <port>5432</port>
+    <username>pentaho</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb09ab7eca93a7d5</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -353,7 +114,7 @@
       <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
       <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
       <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>5433</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
       <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
@@ -376,7 +137,155 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <fields>        <select_unspecified>N</select_unspecified>
+    <fields>      <field>        <name>pgmt_amreferenciaarrecadacao</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>imov_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>clie_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>pgmt_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>pgmt_dtpagamento</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>anomes_pagamento</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>avbc_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>pgst_idatual</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>dotp_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>arfm_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>gpag_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>dbac_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>last_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>lest_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>iper_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>loca_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>qdra_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_nnquadra</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_vlagua</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_vlesgoto</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_vlimpostos</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_vldebitos</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_vlcreditos</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_amreferenciaconta</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>cnta_dtvencimentoconta</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>anomes_vencimento</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>lapf_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>lepf_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>hidi_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>catg_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>scat_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>pgmt_vlpagamento</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>gpag_dtvencimento</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>gpag_amreferenciacontabil</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>fntp_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>lict_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>        <select_unspecified>N</select_unspecified>
       <meta>        <name>pgmt_amreferenciaarrecadacao</name>
         <rename>pgmt_amreferenciaarrecadacao</rename>
         <type>None</type>
@@ -917,9 +826,24 @@
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
+      </meta>      <meta>        <name>lict_id</name>
+        <rename>lict_id</rename>
+        <type>None</type>
+        <length>9</length>
+        <precision>0</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
       </meta>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>240</xloc>
+      <xloc>352</xloc>
       <yloc>64</yloc>
       <draw>Y</draw>
       </GUI>
@@ -936,8 +860,8 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>comercial_gsan</connection>
-    <sql>-------Garar stage_paghist--&#xd;&#xa;-------CAGEPA---------------&#xd;&#xa;-------Vers&#xe3;o 28&#x2f;12&#x2f;15------&#xd;&#xa;select &#xd;&#xa;pgmt_amreferenciaarrecadacao,&#xd;&#xa;pg.imov_id,&#xd;&#xa;pg.clie_id,&#xd;&#xa;pgmt_id,&#xd;&#xa;pgmt_dtpagamento,&#xd;&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;pgmt_dtpagamento as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;pgmt_dtpagamento as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_pagamento,&#xd;&#xa;pg.avbc_id,&#xd;&#xa;pg.pgst_idatual,&#xd;&#xa;pg.dotp_id,&#xd;&#xa;pg.arfm_id,&#xd;&#xa;pg.cnta_id,&#xd;&#xa;pg.gpag_id,&#xd;&#xa;pg.dbac_id,&#xd;&#xa;coalesce&#x28;ct.last_id,0&#x29;      as last_id,&#xd;&#xa;coalesce&#x28;ct.lest_id,0&#x29;      as lest_id, &#xd;&#xa;coalesce&#x28;ct.iper_id,0&#x29;      as iper_id,&#xd;&#xa;coalesce&#x28;ct.loca_id,0&#x29;      as loca_id,&#xd;&#xa;coalesce&#x28;ct.qdra_id,0&#x29;      as qdra_id,&#xd;&#xa;coalesce&#x28;ct.cnta_nnquadra&#x29;  as cnta_nnquadra,&#xd;&#xa;coalesce&#x28;cnta_vlagua,0&#x29;     as cnta_vlagua,&#xd;&#xa;coalesce&#x28;cnta_vlesgoto,0&#x29;   as cnta_vlesgoto,&#xd;&#xa;coalesce&#x28;cnta_vlimpostos,0&#x29; as cnta_vlimpostos,&#xd;&#xa;coalesce&#x28;cnta_vldebitos,0&#x29;  as cnta_vldebitos,&#xd;&#xa;coalesce&#x28;cnta_vlcreditos,0&#x29; as cnta_vlcreditos,&#xd;&#xa;cnta_amreferenciaconta,&#xd;&#xa;cnta_dtvencimentoconta,&#xd;&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;cnta_dtvencimentoconta as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;cnta_dtvencimentoconta as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_vencimento,&#xd;&#xa;coalesce&#x28;lapf_id,0&#x29; as lapf_id,&#xd;&#xa;coalesce&#x28;lepf_id,0&#x29; as lepf_id,&#xd;&#xa;la.hidi_id,&#xd;&#xa;&#x28;select catg_id from gsan_admin.imovel_subcategoria cat where cat.imov_id &#x3d; pg.imov_id order by imsb_qteconomia desc limit 1&#x29; as catg_id, &#xd;&#xa;&#x28;select scat_id from gsan_admin.imovel_subcategoria cat where cat.imov_id &#x3d; pg.imov_id order by imsb_qteconomia desc limit 1&#x29; as scat_id,&#xd;&#xa;Case when pg.gpag_id is not null then coalesce&#x28;gppr_vlprestacao&#x29; else coalesce&#x28;pgmt_vlpagamento,0&#x29; end as pgmt_vlpagamento,&#xd;&#xa;gppr_dtvencimento                 as gpag_dtvencimento, &#xd;&#xa;gppr_amreferenciafaturamento      as gpag_amreferenciacontabil,&#xd;&#xa;gppr.fntp_id,&#xd;&#xa;gppr.lict_id&#xd;&#xa;from gsan_admin.pagamento pg&#xd;&#xa;INNER JOIN gsan_admin.sistema_parametros       on 1 &#x3d; 1 &#xd;&#xa;LEFT  JOIN gsan_admin.imovel im                on im.imov_id  &#x3d; pg.imov_id &#xd;&#xa;LEFT  JOIN gsan_admin.conta ct                 on ct.cnta_id  &#x3d; pg.cnta_id&#xd;&#xa;LEFT  JOIN gsan_admin.ligacao_agua la          on la.lagu_id  &#x3d; ct.imov_id&#xd;&#xa;LEFT  JOIN gsan_admin.ligacao_esgoto le        on le.lesg_id  &#x3d; ct.imov_id&#xd;&#xa;LEFT  JOIN gsan_admin.guia_pagamento_prestacao gppr on gppr.gpag_id &#x3d; pg.gpag_id and gppr_icpagamento&#x3d;1 and gppr_nnprestacao&#x3d;pgmt_nnprestacao and gppr_vlprestacao &#x3e; 0&#xd;&#xa;where pgmt_amreferenciaarrecadacao &#x3d; parm_amreferenciaarrecadacao  &#xd;&#xa;---------&#xd;&#xa;UNION ALL   --- UNIR OS PAGAMENTOS DAS TABELAS PAGAMENTO E PAGAMENTO_HISTORICO&#xd;&#xa;---------&#xd;&#xa;select &#xd;&#xa;pghi_amreferenciaarrecadacao,&#xd;&#xa;ph.imov_id,&#xd;&#xa;ph.clie_id,&#xd;&#xa;pghi_id,&#xd;&#xa;pghi_dtpagamento,&#xd;&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;pghi_dtpagamento as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;pghi_dtpagamento as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_pagamento,&#xd;&#xa;ph.avbc_id,&#xd;&#xa;ph.pgst_idatual,&#xd;&#xa;ph.dotp_id,&#xd;&#xa;ph.arfm_id,&#xd;&#xa;ph.cnta_id,&#xd;&#xa;ph.gpag_id,&#xd;&#xa;ph.dbac_id,&#xd;&#xa;coalesce&#x28;ch.last_id,0&#x29;      as last_id,&#xd;&#xa;coalesce&#x28;ch.lest_id,0&#x29;      as lest_id, &#xd;&#xa;coalesce&#x28;ch.iper_id,0&#x29;      as iper_id,&#xd;&#xa;coalesce&#x28;ch.loca_id,0&#x29;      as loca_id,&#xd;&#xa;coalesce&#x28;ch.qdra_id,0&#x29;      as qdra_id,&#xd;&#xa;coalesce&#x28;ch.cnhi_nnquadra&#x29;  as cnhi_nnquadra,&#xd;&#xa;coalesce&#x28;cnhi_vlagua,0&#x29;     as cnhi_vlagua,&#xd;&#xa;coalesce&#x28;cnhi_vlesgoto,0&#x29;   as cnhi_vlesgoto,&#xd;&#xa;coalesce&#x28;cnhi_vlimpostos,0&#x29; as cnhi_vlimpostos,&#xd;&#xa;coalesce&#x28;cnhi_vldebitos,0&#x29;  as cnta_vldebitos,&#xd;&#xa;coalesce&#x28;cnhi_vlcreditos,0&#x29; as cnta_vlcreditos,&#xd;&#xa;cnhi_amreferenciaconta,&#xd;&#xa;cnhi_dtvencimentoconta,&#xd;&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;cnhi_dtvencimentoconta as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;cnhi_dtvencimentoconta as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_vencimento,&#xd;&#xa;coalesce&#x28;lapf_id,0&#x29; as lapg_id,&#xd;&#xa;coalesce&#x28;lepf_id,0&#x29; as lepf_id,&#xd;&#xa;la.hidi_id,&#xd;&#xa;&#x28;select catg_id from gsan_admin.imovel_subcategoria cat where cat.imov_id &#x3d; ph.imov_id order by imsb_qteconomia desc limit 1&#x29; as catg_id, &#xd;&#xa;&#x28;select scat_id from gsan_admin.imovel_subcategoria cat where cat.imov_id &#x3d; ph.imov_id order by imsb_qteconomia desc limit 1&#x29; as scat_id,&#xd;&#xa;Case when ph.gpag_id is not null then coalesce&#x28;gpph_vlprestacao&#x29; else coalesce&#x28;pghi_vlpagamento,0&#x29; end as pgmt_vlpagamento,&#xd;&#xa;gpph_dtvencimento                 as gpag_dtvencimento, &#xd;&#xa;gpph_amreferenciafaturamento      as gpag_amreferenciacontabil,&#xd;&#xa;gpph.fntp_id,&#xd;&#xa;gpph.lict_id&#xd;&#xa;from gsan_admin.pagamento_historico ph&#xd;&#xa;INNER JOIN gsan_admin.sistema_parametros on 1 &#x3d; 1 &#xd;&#xa;LEFT  JOIN gsan_admin.imovel im                          on im.imov_id  &#x3d; ph.imov_id &#xd;&#xa;LEFT  JOIN gsan_admin.conta_historico ch                 on ch.cnta_id  &#x3d; ph.cnta_id&#xd;&#xa;LEFT  JOIN gsan_admin.ligacao_agua la                    on la.lagu_id  &#x3d; ch.imov_id&#xd;&#xa;LEFT  JOIN gsan_admin.ligacao_esgoto le                  on le.lesg_id  &#x3d; ch.imov_id&#xd;&#xa;LEFT  JOIN gsan_admin.guia_pagamento_prestacao_hist gpph on gpph.gpag_id &#x3d; ph.gpag_id and gpph_icpagamento&#x3d;1 and gpph_nnprestacao&#x3d;pghi_nnprestacao and gpph_vlprestacao &#x3e; 0&#xd;&#xa;where pghi_amreferenciaarrecadacao &#x3d; parm_amreferenciaarrecadacao   &#xd;&#xa;-----------------------FIM DO SQL---------------------------------  </sql>
+    <connection>Teste_comercial</connection>
+    <sql>-------Garar stage_paghist--&#xd;&#xa;-------COSANPA--------------&#xd;&#xa;-------Vers&#xe3;o 10&#x2f;03&#x2f;16------&#xd;&#xa;select &#xa;pgmt_amreferenciaarrecadacao,&#xa;pg.imov_id,&#xa;pg.clie_id,&#xa;pgmt_id,&#xa;pgmt_dtpagamento,&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;pgmt_dtpagamento as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;pgmt_dtpagamento as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_pagamento,&#xa;pg.avbc_id,&#xa;pg.pgst_idatual,&#xa;pg.dotp_id,&#xa;pg.arfm_id,&#xa;pg.cnta_id,&#xa;pg.gpag_id,&#xa;pg.dbac_id,&#xa;coalesce&#x28;ct.last_id,0&#x29;      as last_id,&#xa;coalesce&#x28;ct.lest_id,0&#x29;      as lest_id, &#xa;coalesce&#x28;ct.iper_id,0&#x29;      as iper_id,&#xa;coalesce&#x28;ct.loca_id,0&#x29;      as loca_id,&#xa;coalesce&#x28;ct.qdra_id,0&#x29;      as qdra_id,&#xa;coalesce&#x28;ct.cnta_nnquadra&#x29;  as cnta_nnquadra,&#xa;coalesce&#x28;cnta_vlagua,0&#x29;     as cnta_vlagua,&#xa;coalesce&#x28;cnta_vlesgoto,0&#x29;   as cnta_vlesgoto,&#xa;coalesce&#x28;cnta_vlimpostos,0&#x29; as cnta_vlimpostos,&#xa;coalesce&#x28;cnta_vldebitos,0&#x29;  as cnta_vldebitos,&#xa;coalesce&#x28;cnta_vlcreditos,0&#x29; as cnta_vlcreditos,&#xa;cnta_amreferenciaconta,&#xa;cnta_dtvencimentoconta,&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;cnta_dtvencimentoconta as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;cnta_dtvencimentoconta as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_vencimento,&#xa;coalesce&#x28;lapf_id,0&#x29; as lapf_id,&#xa;coalesce&#x28;lepf_id,0&#x29; as lepf_id,&#xa;la.hidi_id,&#xa;&#x28;select catg_id from cadastro.imovel_subcategoria cat join cadastro.subcategoria sub on cat.scat_id &#x3d; sub.scat_id where cat.imov_id &#x3d; pg.imov_id order by imsb_qteconomia desc limit 1&#x29; as catg_id, &#xa;&#x28;select scat_id from cadastro.imovel_subcategoria cat where cat.imov_id &#x3d; pg.imov_id order by imsb_qteconomia desc limit 1&#x29; as scat_id,&#xa;coalesce&#x28;pgmt_vlpagamento,0&#x29; as pgmt_vlpagamento,&#xa;gpag_dtvencimento                 as gpag_dtvencimento, &#xa;gpag_amreferenciacontabil         as gpag_amreferenciacontabil,&#xa;gppr.fntp_id,&#xa;gppr.lict_id&#xa;from arrecadacao.pagamento pg&#xa;INNER JOIN cadastro.sistema_parametros           on 1 &#x3d; 1 &#xa;LEFT  JOIN cadastro.imovel im                    on im.imov_id  &#x3d; pg.imov_id &#xa;LEFT  JOIN faturamento.conta ct                  on ct.cnta_id  &#x3d; pg.cnta_id&#xa;LEFT  JOIN atendimentopublico.ligacao_agua la    on la.lagu_id  &#x3d; ct.imov_id&#xa;LEFT  JOIN atendimentopublico.ligacao_esgoto le  on le.lesg_id  &#x3d; ct.imov_id&#xa;LEFT  JOIN faturamento.guia_pagamento gppr       on gppr.gpag_id &#x3d; pg.gpag_id&#xa;where pgmt_amreferenciaarrecadacao &#x3d; parm_amreferenciaarrecadacao  &#xa;---------&#xa;UNION ALL   --- UNIR OS PAGAMENTOS DAS TABELAS PAGAMENTO E PAGAMENTO_HISTORICO&#xa;---------&#xa;select &#xa;pghi_amreferenciaarrecadacao,&#xa;ph.imov_id,&#xa;ph.clie_id,&#xa;pghi_id,&#xa;pghi_dtpagamento,&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;pghi_dtpagamento as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;pghi_dtpagamento as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_pagamento,&#xa;ph.avbc_id,&#xa;ph.pgst_idatual,&#xa;ph.dotp_id,&#xa;ph.arfm_id,&#xa;ph.cnta_id,&#xa;ph.gpag_id,&#xa;ph.dbac_id,&#xa;coalesce&#x28;ch.last_id,0&#x29;      as last_id,&#xa;coalesce&#x28;ch.lest_id,0&#x29;      as lest_id, &#xa;coalesce&#x28;ch.iper_id,0&#x29;      as iper_id,&#xa;coalesce&#x28;ch.loca_id,0&#x29;      as loca_id,&#xa;coalesce&#x28;ch.qdra_id,0&#x29;      as qdra_id,&#xa;coalesce&#x28;ch.cnhi_nnquadra&#x29;  as cnhi_nnquadra,&#xa;coalesce&#x28;cnhi_vlagua,0&#x29;     as cnhi_vlagua,&#xa;coalesce&#x28;cnhi_vlesgoto,0&#x29;   as cnhi_vlesgoto,&#xa;coalesce&#x28;cnhi_vlimpostos,0&#x29; as cnhi_vlimpostos,&#xa;coalesce&#x28;cnhi_vldebitos,0&#x29;  as cnta_vldebitos,&#xa;coalesce&#x28;cnhi_vlcreditos,0&#x29; as cnta_vlcreditos,&#xa;cnhi_amreferenciaconta,&#xa;cnhi_dtvencimentoconta,&#xa;cast&#x28;&#x28;substr&#x28;cast&#x28;cnhi_dtvencimentoconta as char&#x28;4&#x29;&#x29;,1,4&#x29;&#x7c;&#x7c;substr&#x28;cast&#x28;cnhi_dtvencimentoconta as char&#x28;7&#x29;&#x29;,6,2&#x29;&#x29; as integer &#x29; as anomes_vencimento,&#xa;coalesce&#x28;lapf_id,0&#x29; as lapg_id,&#xa;coalesce&#x28;lepf_id,0&#x29; as lepf_id,&#xa;la.hidi_id,&#xa;&#x28;select catg_id from cadastro.imovel_subcategoria cat join cadastro.subcategoria sub on cat.scat_id &#x3d; sub.scat_id where cat.imov_id &#x3d; ph.imov_id order by imsb_qteconomia desc limit 1&#x29; as catg_id, &#xa;&#x28;select scat_id from cadastro.imovel_subcategoria cat where cat.imov_id &#x3d; ph.imov_id order by imsb_qteconomia desc limit 1&#x29; as scat_id,&#xa;coalesce&#x28;pghi_vlpagamento,0&#x29; as pgmt_vlpagamento,&#xa;gphi_dtvencimento                 as gpag_dtvencimento, &#xa;gphi_amreferenciacontabil         as gpag_amreferenciacontabil,&#xa;gpph.fntp_id,&#xa;gpph.lict_id&#xa;from arrecadacao.pagamento_historico ph&#xa;INNER JOIN cadastro.sistema_parametros                    on 1 &#x3d; 1 &#xa;LEFT  JOIN cadastro.imovel im                             on im.imov_id  &#x3d; ph.imov_id &#xa;LEFT  JOIN faturamento.conta_historico ch                 on ch.cnta_id  &#x3d; ph.cnta_id&#xa;LEFT  JOIN atendimentopublico.ligacao_agua la             on la.lagu_id  &#x3d; ch.imov_id&#xa;LEFT  JOIN atendimentopublico.ligacao_esgoto le           on le.lesg_id  &#x3d; ch.imov_id&#xa;LEFT  JOIN faturamento.guia_pagamento_historico gpph      on gpph.gpag_id &#x3d; ph.gpag_id &#xa;where pghi_amreferenciaarrecadacao &#x3d; parm_amreferenciaarrecadacao   &#xa;-----------------------FIM DO SQL---------------------------------  </sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -962,8 +886,8 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>comercial_gsan</connection>
-    <schema>gsan_admin</schema>
+    <connection>Teste_pentaho</connection>
+    <schema>dw</schema>
     <table>stage_paghist</table>
     <commit>1000</commit>
     <truncate>Y</truncate>
@@ -983,7 +907,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>352</xloc>
+      <xloc>544</xloc>
       <yloc>64</yloc>
       <draw>Y</draw>
       </GUI>
